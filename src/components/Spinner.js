@@ -8,8 +8,8 @@ export class Spinner extends Component {
         for (let i = 0; i < 6; i++) {
             component.push(
 
-                <div className="col-md-4" key={i}>
-                    <div className="card my-5" aria-hidden="true">
+                <div className=" col-md-4" key={i}>
+                    <div className="card my-3" aria-hidden="true">
                         <img src="..." className="card-img-top" alt="" />
                         <div className="card-body">
                             <h5 className="card-title placeholder-glow">
@@ -27,6 +27,7 @@ export class Spinner extends Component {
                     </div>
                 </div>
 
+
             )
         }
 
@@ -34,9 +35,11 @@ export class Spinner extends Component {
 
 
         return (
+            <div className="container my-3">
 
-            <div className="row">
-                {component}
+                <div className="row">
+                    {component}
+                </div>
             </div>
 
         )
