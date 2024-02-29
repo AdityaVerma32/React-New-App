@@ -12,7 +12,9 @@ function App() {
     <div>
       <Router>
         <NavBar />
-
+        <Routes>
+          <Route exact path="/" key="1" element={<News pageSize={pageElementCount} country={countryName} category={"general"} />} />
+        </Routes>
         <Routes>
           <Route exact path="/general" key="general" element={<News pageSize={pageElementCount} country={countryName} category={"general"} />} />
         </Routes>
