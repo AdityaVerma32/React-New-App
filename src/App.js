@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 
-  const pageElementCount = 6;
+  const pageElementCount = 30;
   const countryName = "in";
 
   return (
